@@ -1,0 +1,12 @@
+.pg2{
+    width: auto;
+}
+.link-front-page{
+    text-decoration:none;
+    color:gray;
+    transition:all 0.5s;
+}
+.link-front-page:hover{
+    color: rgb(66, 3, 66);
+
+}

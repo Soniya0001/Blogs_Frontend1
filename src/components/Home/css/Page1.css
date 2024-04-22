@@ -1,0 +1,12 @@
+.home-pg1{
+    height: 87vh;
+    width: auto;
+}
+.page-1-container{
+    background-image: linear-gradient(320deg, red, purple);
+    color:white;
+    border-radius: 30px;
+}
+.page-1-container h1{
+    font-size: 3rem;
+}

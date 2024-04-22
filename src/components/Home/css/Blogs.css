@@ -1,0 +1,12 @@
+.blog-card{
+border:1px solid black;
+transition:all 0.5s;
+}
+
+.blog-card:hover{
+    box-shadow:4px 2px 4px 6px rgb(167, 44, 167)
+}
+
+.blog-card{
+text-align:justify
+}
