@@ -11,7 +11,7 @@ const Page2 = () => {
             try {
                 await axios
                     // .get("http://localhost:1000/api/v1/getRecentBlogs")
-                    .get("https://blogs-backend1.onrender.com/api/v1/getRecentBlogs")
+                    .get("https://blogs-backend1-1.onrender.com/api/v1/getRecentBlogs")
                     .then((res) => setBlogs(res.data.data));
             } catch (error) {
                 alert("Some error occured")

@@ -13,7 +13,7 @@ const BlogsPage = () => {
     useEffect(() => {
         const fetch = async () => {
             // await axios.get(`http://localhost:1000/api/v1/getBlog/${id}`)
-            await axios.get(`https://blogs-backend1.onrender.com/api/v1/getBlog/${id}`)
+            await axios.get(`https://blogs-backend1-1.onrender.com/api/v1/getBlog/${id}`)
                 .then((res) => setBlog(res.data.data));
         };
         fetch();
